@@ -89,7 +89,7 @@ public class Student {
         "id=" + this.id +
         ", name=" + this.name + 
         ", email=" + this.email +
-        ", dob=" + this.dob + 
+        ", Date of Birth=" + this.dob + 
         ", age=" + this.age + 
         "}";
     }
