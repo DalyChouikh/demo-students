@@ -16,20 +16,17 @@ public class StudentConfig {
             Student aziz = new Student(
                 "Aziz Nabli",
                 "aziz.nabli@gmail.com",
-                LocalDate.of(2002,Month.JANUARY,24)
+                LocalDate.of(2002,Month.JANUARY,24),
+                20
             );
 
             Student younes = new Student(
                 "Younes Chouikh",
                 "younes.jmell10@gmail.com",
-                LocalDate.of(2002,Month.JANUARY,24)
+                LocalDate.of(2002,Month.JANUARY,24),
+                20
             );
-            Student ahmed = new Student(
-                "Ahmed Gharbi",
-                "ahmedgharbi@gmail.com",
-                LocalDate.of(2001,Month.AUGUST,20)
-            );
-            repository.saveAll(List.of(aziz,younes,ahmed));
+            repository.saveAll(List.of(aziz,younes));
         };
     }
     
